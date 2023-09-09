@@ -12,6 +12,6 @@ class Settings(BaseSettings):
     access_token_expire_minutes: int
 
     class Config:
-        env_file = '/Users/hieutong/Documents/LearningPython/fastapi/.env'
+        env_file = '.env'
 
 settings = Settings()
